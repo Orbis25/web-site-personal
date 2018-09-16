@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #23074D;
+}
+.home-img {
+    background-image: url('img/large.png');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1em;
+    margin-top: 1em;
+}
+
+.color-img{
+    color:white;
+}
+
+.person-img {
+    height: 300px;
+    margin: 2em;
+    position: relative;
+    left: 500px;
+    bottom: 520px;
+    border-radius: 30em;
+}
+
+.home-word {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    bottom: 520px;
+    color: white;
+}
+
+.icon-dev {
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    bottom: 530px;
+    color: white;
+}
+
+.web-dev {
+    font-family: 'Open Sans',
+        sans-serif;
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    bottom: 520px;
+    color: white;
+}
+
+.info {
+    font-family: 'Open Sans',
+        sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    bottom: 450px;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.hobbies {
+    font-family: 'Open Sans',
+        sans-serif;
+    margin: auto;
+    width: 500px;
+    padding: 5px;
+    position: relative;
+    bottom: 200px;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.Contact {
+    font-family: 'Open Sans',
+        sans-serif;
+    margin: auto;
+    width: 500px;
+    padding: 5px;
+    position: relative;
+    bottom: 100px;
+    font-size: 2em;
+    color: white;
+}
+
+.video {
+    font-family: 'Open Sans',
+        sans-serif;
+    margin: auto;
+    width: 98%;
+    padding: 5px;
+    position: relative;
+    bottom: 100px;
+    font-size: 2em;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+.text-min{
+    font-size: 20px;
+}
+a{
+    color:#fff;
+    text-decoration:none; 
+}
+a:hover{
+    color: #CC5333;
+}
+.mt{
+    margin-top: 1em;
+}
+footer{
+    font-family: 'Open Sans',
+    sans-serif;
+    text-align: center;
+    background: #fff;
+    margin: 0;
+    padding: 3em;
+}
+
+.firstWord {
+    font-size: 2em;
+    color: #1976D2;
+}
+.firstWord-2{
+    font-size: 2em;
+    color: #CC5333;
+}
+
+hr {
+    border: 1px solid #1976D2;
+    margin: 2px;
+}
+
+.skills {
+    font-family: 'Open Sans',
+        sans-serif;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    bottom: 400px;
+    width: 30%;
+    float: left;
+    top:5px;
+    margin-left: 2em;
+    margin-top: 2em;
+    color: white;
+}
+.skills-One {
+    font-family: 'Open Sans',
+        sans-serif;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    bottom: 400px;
+    border: solid;
+    width: 95%;
+    border-radius: 30px;
+    /* float: left; */
+    margin-left: 2em;
+    margin-top: 2em;
+    color: white;
+    background: white;
+}
+
+.skills-title{
+   font-family: 'Open Sans',
+   sans-serif;
+   text-align: center;
+   align-content: center;
+   position: relative;
+   bottom: auto;
+   width: 99%;
+   float: left;
+   color: black;
+}
+
+.container-skills {
+     border: solid;
+     
+}
+
