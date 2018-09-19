@@ -2,20 +2,22 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background: #23074D;
 }
+
 .home-img {
-    background-image: url('img/large.png');
+    background-image: url('img/pg.jpg');
     height: 500px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 1em;
-    margin-top: 1em;
+    filter: blur(2px);
 }
 
-.color-img{
-    color:white;
+.color-img {
+    color: white;
 }
 
 .person-img {
@@ -66,6 +68,7 @@ body{
     text-align: center;
     color: white;
 }
+
 .hobbies {
     font-family: 'Open Sans',
         sans-serif;
@@ -78,6 +81,7 @@ body{
     text-align: center;
     color: white;
 }
+
 .Contact {
     font-family: 'Open Sans',
         sans-serif;
@@ -102,26 +106,31 @@ body{
     color: white;
 }
 
-.text-center{
+.text-center {
     text-align: center;
-    
+
 }
-.text-min{
+
+.text-min {
     font-size: 20px;
 }
-a{
-    color:#fff;
-    text-decoration:none; 
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #CC5333;
 }
-.mt{
+
+.mt {
     margin-top: 1em;
 }
-footer{
+
+footer {
     font-family: 'Open Sans',
-    sans-serif;
+        sans-serif;
     text-align: center;
     background: #fff;
     margin: 0;
@@ -132,7 +141,13 @@ footer{
     font-size: 2em;
     color: #1976D2;
 }
-.firstWord-2{
+
+.Word-skils {
+    font-size: 25px;
+    color: #1976D2;
+}
+
+.firstWord-2 {
     font-size: 2em;
     color: #CC5333;
 }
@@ -148,45 +163,36 @@ hr {
     text-align: center;
     align-content: center;
     position: relative;
-    bottom: 400px;
-    width: 30%;
+    margin-top: 1em;
+    width: 25%;
     float: left;
-    top:5px;
-    margin-left: 2em;
-    margin-top: 2em;
     color: white;
 }
+
 .skills-One {
+    font-family: 'Open Sans',
+        sans-serif;
+    align-content: center;
+    position: relative;
+    bottom: 400px;
+    width: 100%;
+    color: white;
+    background: white;
+}
+
+.skills-title {
     font-family: 'Open Sans',
         sans-serif;
     text-align: center;
     align-content: center;
     position: relative;
-    bottom: 400px;
-    border: solid;
-    width: 95%;
-    border-radius: 30px;
-    /* float: left; */
-    margin-left: 2em;
-    margin-top: 2em;
-    color: white;
-    background: white;
-}
-
-.skills-title{
-   font-family: 'Open Sans',
-   sans-serif;
-   text-align: center;
-   align-content: center;
-   position: relative;
-   bottom: auto;
-   width: 99%;
-   float: left;
-   color: black;
+    bottom: auto;
+    width: 99%;
+    float: left;
+    color: black;
 }
 
 .container-skills {
-     border: solid;
-     
-}
+    border: solid;
 
+}
