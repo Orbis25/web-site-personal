@@ -1,5 +1,17 @@
+import FollowMouse from "./components/FollowMouse";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import RedesSociales from "./components/RedesSociales";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <FollowMouse />
+      <Header />
+      <Hero />
+      <RedesSociales />
+    </>
+  );
 }
 
 export default App;
