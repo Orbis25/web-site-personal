@@ -8,13 +8,13 @@ const Header = () => {
     <header className="bg-bg200 py-5">
       <nav className=" container flex items-center justify-between">
         <a className=" text-2xl font-semibold text-primary200" href="/">
-          Orbis Alonzo
+          OAlonzo
         </a>
         <ul className="flex items-center">
           {navItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className=" px-3" href={item.href}>
+                <a className="px-3" href={item.href}>
                   {item.name}
                 </a>
               </li>

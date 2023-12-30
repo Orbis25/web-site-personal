@@ -2,6 +2,7 @@ import {
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandGithub,
+  IconMailShare,
 } from "@tabler/icons-react";
 
 const RedesSociales = () => {
@@ -20,6 +21,11 @@ const RedesSociales = () => {
       name: "github",
       url: "https://www.linkedin.com/in/eduardomtzp",
       icon: IconBrandGithub,
+    },
+    {
+      name: "orbisalonzo@gmail.com",
+      url: "mailto:orbisalonzo@gmail.com?subject=From%20MyWebsite!",
+      icon: IconMailShare,
     },
   ];
   return (

@@ -3,7 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-
       colors: {
         primary100: "#6A00FF",
         primary200: "#a64aff",
@@ -18,6 +17,15 @@ export default {
       },
       fontFamily: {
         sans: ["Outfit", "sans-serif"],
+      },
+      animation: {
+        "wiggle-scale": "wiggleScale 1s linear infinite",
+      },
+      keyframes: {
+        wiggleScale: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
       },
     },
   },

@@ -30,7 +30,7 @@ const FollowMouse = () => {
   }, []);
 
   return (
-    <div className="-translate-x-5 -translate-y-5 mix-blend-difference relative z-50">
+    <div className=" -translate-x-5 -translate-y-5 mix-blend-difference relative z-50">
       <motion.div
         animate={{
           y,
@@ -44,7 +44,7 @@ const FollowMouse = () => {
         style={{
           zIndex: 1000,
         }}
-        className="mouse size-10  pointer-events-none absolute w-10 h-10 bg-white rounded-full"
+        className="size-10 pointer-events-none absolute w-10 h-10 bg-white rounded-full"
       />
     </div>
   );

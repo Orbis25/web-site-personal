@@ -1,7 +1,7 @@
+import Experiences from "./components/Experiences";
 import FollowMouse from "./components/FollowMouse";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import RedesSociales from "./components/RedesSociales";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <FollowMouse />
       <Header />
       <Hero />
-      <RedesSociales />
+      <Experiences />
     </>
   );
 }
