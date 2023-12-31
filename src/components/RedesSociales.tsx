@@ -4,6 +4,7 @@ import {
   IconBrandGithub,
   IconMailShare,
 } from "@tabler/icons-react";
+import classNames from "classnames";
 
 const RedesSociales = () => {
   const socialMedias = [
@@ -29,8 +30,13 @@ const RedesSociales = () => {
     },
   ];
   return (
-    <section className="container py-10 flex justify-between items-center">
-      <div className=" flex gap-x-3 items-center">
+    <section className="container py-10 flex flex-col gap-3 lg:flex-row justify-between items-center">
+      <div
+        className={classNames(
+          "flex gap-2 justify-center items-center flex-wrap",
+          "md:gap-4"
+        )}
+      >
         {socialMedias.map((socialMedia, index) => {
           const Icon = socialMedia.icon;
           return (

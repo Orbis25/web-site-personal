@@ -16,19 +16,19 @@ const Experiences = () => {
     },
   ];
   return (
-    <section className=" h-screen relative">
+    <section className="min-h-screen relative mt-20 md:mt-0">
       <div className="container">
         <h2 className="text-4xl font-bold text-primary200">My Experiences</h2>
-        <ul className=" grid grid-cols-2  gap-2 mt-14">
+        <ul className=" grid grid-cols-1 gap-2 mt-14 md:grid-cols-2">
           {experiences.map(
             ({ title, company, date, description }, index: number) => (
               <li key={index} className=" bg-bg200/20 p-5">
-                <div className="flex justify-between ">
-                  <div className="">
+                <div className="">
+                  <div className="flex justify-between ">
                     <h3 className=" text-accent100">{title}</h3>
-                    <p className=" text-xl mb-3 w-[80%] ">{company}</p>
+                    <p className=" opacity-50 whitespace-nowrap ">{date}</p>
                   </div>
-                  <p className=" opacity-50 whitespace-nowrap ">{date}</p>
+                  <p className=" text-xl my-3">{company}</p>
                 </div>
 
                 <p className="opacity-70">{description}</p>
