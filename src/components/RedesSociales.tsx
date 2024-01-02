@@ -10,17 +10,17 @@ const RedesSociales = () => {
   const socialMedias = [
     {
       name: "instagram",
-      url: "https://www.instagram.com/eduardomtzp",
+      url: "https://www.instagram.com/orbisdev/",
       icon: IconBrandInstagram,
     },
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/eduardomtzp",
+      url: "https://www.linkedin.com/in/orbis-alonzo-gutierrez-54564716a/",
       icon: IconBrandLinkedin,
     },
     {
       name: "github",
-      url: "https://www.linkedin.com/in/eduardomtzp",
+      url: "https://github.com/Orbis25",
       icon: IconBrandGithub,
     },
     {
