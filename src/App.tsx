@@ -2,6 +2,7 @@ import Experiences from "./components/Experiences";
 import FollowMouse from "./components/FollowMouse";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Experiences />
+      <Skills />
     </>
   );
 }

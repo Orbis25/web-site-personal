@@ -16,9 +16,9 @@ const Experiences = () => {
     },
   ];
   return (
-    <section className="min-h-screen relative mt-20 md:mt-0">
+    <section className="relative mt-20 md:mt-0">
       <div className="container">
-        <h2 className="text-4xl font-bold text-primary200">My Experiences</h2>
+        <h2 className="text-4xl font-bold text-primary200">Experiences</h2>
         <ul className=" grid grid-cols-1 gap-2 mt-14 md:grid-cols-2">
           {experiences.map(
             ({ title, company, date, description }, index: number) => (
