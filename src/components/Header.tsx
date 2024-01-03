@@ -4,6 +4,7 @@ const Header = () => {
   const navItems = [
     { name: "About", href: "/about" },
     { name: "Projects", href: "/projects" },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ];
   return (
@@ -13,9 +14,9 @@ const Header = () => {
           OAlonzo
         </a>
         <ul className="flex items-center">
-          {navItems.map((item, index) => {
+          {navItems.map((item) => {
             return (
-              <li key={index}>
+              <li key={item.name}>
                 <a className="px-3" href={item.href}>
                   {item.name}
                 </a>
