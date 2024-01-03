@@ -1,3 +1,5 @@
+import Switch from "./Switch";
+
 const Header = () => {
   const navItems = [
     { name: "About", href: "/about" },
@@ -5,7 +7,7 @@ const Header = () => {
     { name: "Contact", href: "/contact" },
   ];
   return (
-    <header className="bg-bg200 py-5">
+    <header className=" bg-gray-100 dark:bg-bg200 py-5">
       <nav className=" container flex items-center justify-between">
         <a className=" text-2xl font-semibold text-primary200" href="/">
           OAlonzo
@@ -20,6 +22,7 @@ const Header = () => {
               </li>
             );
           })}
+          <Switch />
         </ul>
       </nav>
     </header>

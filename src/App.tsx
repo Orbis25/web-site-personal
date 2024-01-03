@@ -1,3 +1,4 @@
+import ContactMe from "./components/ContactMe";
 import Experiences from "./components/Experiences";
 import FollowMouse from "./components/FollowMouse";
 import Header from "./components/Header";
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Experiences />
       <Skills />
+      <ContactMe />
     </>
   );
 }

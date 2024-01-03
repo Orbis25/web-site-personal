@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-white text-bg100 dark:bg-bg100 dark:text-text100 ;
+  }
+}
+
 @layer utilities {
   .container {
     @apply max-w-[1111px] mx-auto px-4 sm:px-6 lg:px-8;
   }
+  h2 {
+    @apply text-3xl md:text-4xl font-bold text-center;
+  }
 }
-

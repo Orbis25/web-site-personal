@@ -16,13 +16,13 @@ const Experiences = () => {
     },
   ];
   return (
-    <section className="relative mt-20 md:mt-0">
+    <section className="relative mt-20 md:mt-10">
       <div className="container">
-        <h2 className="text-4xl font-bold text-primary200">Experiences</h2>
+        <h2 className="text-primary200">Experiences</h2>
         <ul className=" grid grid-cols-1 gap-2 mt-14 md:grid-cols-2">
           {experiences.map(
             ({ title, company, date, description }, index: number) => (
-              <li key={index} className=" bg-bg200/20 p-5">
+              <li key={index} className=" bg-gray-100/50 dark:bg-bg200/20 p-5 rounded-2xl">
                 <div className="">
                   <div className="flex justify-between ">
                     <h3 className=" text-accent100">{title}</h3>

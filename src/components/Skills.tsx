@@ -80,11 +80,11 @@ const Skills = () => {
     },
   ];
   return (
-    <section className=" min-h-screen relative ">
-      <Gradient className=" rotate-180 " />
-      <div className="container mt-24">
-        <h2 className="text-4xl font-bold text-white pt-24">Skills</h2>
-        <ul className=" flex gap-4 flex-wrap mt-10 ">
+    <section className="relative ">
+      <Gradient className=" rotate-180" />
+      <div className="container my-24">
+        <h2 className=" dark:text-white pt-24">Skills</h2>
+        <ul className=" flex gap-4 flex-wrap mt-10 justify-center ">
           {skills.map((skill, index) => {
             return (
               <motion.li
@@ -112,7 +112,7 @@ const Skills = () => {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ delay: 0.1 }}
-                      className="text-white text-center text-xs"
+                      className="dark:text-white text-center text-xs"
                     >
                       {skill.name}
                     </motion.span>

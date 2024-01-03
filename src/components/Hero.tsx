@@ -35,7 +35,11 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-        <img className="md:w-80 w-60" src={Image} alt="Imagen Profile Github Orbis" />
+        <img
+          className="md:w-80 w-60"
+          src={Image}
+          alt="Imagen Profile Github Orbis"
+        />
       </div>
       <RedesSociales />
     </section>
