@@ -4,6 +4,7 @@ import Image from "../assets/profile.png";
 import RedesSociales from "./RedesSociales";
 import Gradient from "./Gradient";
 import classNames from "classnames";
+import CV from "../assets/orbiscv.pdf";
 
 const Hero = () => {
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
             end-users
           </p>
           <div className="flex items-center gap-x-2 mx-auto md:mx-0">
-            <Button>
+            <Button onClick={() => window.open(CV)}>
               <IconFileCv />
               Download cv
             </Button>
