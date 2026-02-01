@@ -3,16 +3,41 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
-    @apply bg-white text-bg100 dark:bg-bg100 dark:text-text100 ;
+    @apply bg-slate-50 text-slate-800 dark:bg-bg100 dark:text-text100 transition-colors duration-300 antialiased;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-slate-200 shadow-xl dark:bg-white/10 dark:border-white/20 dark:shadow-none;
+  }
+
+  .glass-dark {
+    @apply bg-slate-100/80 backdrop-blur-md border border-slate-300 shadow-xl dark:bg-slate-900/50 dark:border-slate-700/50 dark:shadow-2xl;
+  }
+
+  .nav-link {
+    @apply relative py-2 px-1 text-sm font-medium transition-colors text-slate-600 hover:text-primary100 dark:text-text100/80 dark:hover:text-text100;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-0 w-full h-0.5 bg-primary200 scale-x-0 transition-transform origin-right duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply scale-x-100 origin-left;
   }
 }
 
 @layer utilities {
   .container {
-    @apply max-w-[1111px] mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
   h2 {
-    @apply text-3xl md:text-4xl font-bold text-center;
+    @apply text-4xl md:text-5xl font-bold text-center tracking-tight;
   }
 }

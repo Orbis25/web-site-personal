@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "hello": "Hola Mundo, soy",
+        "title": "Orbis Alonzo",
+        "description": "Ingeniero de Software Full Stack con <0>+8 años de experiencia</0>, creando <2>aplicaciones de alto rendimiento</2> y <4>arquitecturas modernas</4>.",
+        "downloadCv": "Descargar CV",
+        "viewProjects": "Ver Proyectos"
+    },
+    "nav": {
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "skills": "Habilidades",
+        "contact": "Contacto"
+    },
+    "experience": {
+        "title": "Experiencia Profesional",
+        "present": "Actualidad"
+    },
+    "skills": {
+        "title": "Stack Tecnológico"
+    },
+    "contact": {
+        "title": "¿Listo para dar vida a tus ideas?",
+        "description": "Actualmente estoy disponible para trabajo freelance y oportunidades a tiempo completo. ¡Ya sea que tengas una pregunta o simplemente quieras saludar, mi bandeja de entrada siempre está abierta!",
+        "button": "Colaboremos",
+        "responseTime": "Tiempo de respuesta: < 24 horas"
+    }
+}

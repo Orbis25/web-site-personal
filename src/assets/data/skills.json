@@ -1,0 +1,170 @@
+[
+    {
+        "id": "dotnet",
+        "name": ".NET",
+        "category": "backend",
+        "logo": "/src/assets/skills/netcore.png",
+        "color": "#5c2992",
+        "proficiency": 95
+    },
+    {
+        "id": "typescript",
+        "name": "TypeScript",
+        "category": "language",
+        "logo": "/src/assets/skills/ts.png",
+        "color": "#2d79c7",
+        "proficiency": 90
+    },
+    {
+        "id": "javascript",
+        "name": "JavaScript",
+        "category": "language",
+        "logo": "/src/assets/skills/js.png",
+        "color": "#f7e018",
+        "proficiency": 90
+    },
+    {
+        "id": "react",
+        "name": "React",
+        "category": "frontend",
+        "logo": "/src/assets/skills/reactjs.png",
+        "color": "#61dbfb",
+        "proficiency": 88
+    },
+    {
+        "id": "nestjs",
+        "name": "NestJS",
+        "category": "backend",
+        "logo": "/src/assets/skills/nestjs.svg",
+        "color": "#e0234e",
+        "proficiency": 85
+    },
+    {
+        "id": "nodejs",
+        "name": "Node.js",
+        "category": "backend",
+        "logo": "/src/assets/skills/nodejs.png",
+        "color": "#539e43",
+        "proficiency": 85
+    },
+    {
+        "id": "rabbitmq",
+        "name": "RabbitMQ",
+        "category": "tools",
+        "logo": "/src/assets/skills/rabbitmq-icon.svg",
+        "color": "#ff6600",
+        "proficiency": 85
+    },
+    {
+        "id": "redis",
+        "name": "Redis",
+        "category": "database",
+        "logo": "/src/assets/skills/redis.svg",
+        "color": "#dc382d",
+        "proficiency": 82
+    },
+    {
+        "id": "docker",
+        "name": "Docker",
+        "category": "tools",
+        "logo": "/src/assets/skills/docker-icon.svg",
+        "color": "#2496ed",
+        "proficiency": 78
+    },
+    {
+        "id": "azure",
+        "name": "Azure DevOps",
+        "category": "tools",
+        "logo": "/src/assets/skills/microsoft-azure.svg",
+        "color": "#0078d4",
+        "proficiency": 85
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "category": "tools",
+        "logo": "/src/assets/skills/git-icon.svg",
+        "color": "#f05032",
+        "proficiency": 90
+    },
+    {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "category": "database",
+        "logo": "/src/assets/skills/postgresql.svg",
+        "color": "#336791",
+        "proficiency": 85
+    },
+    {
+        "id": "sql",
+        "name": "SQL Server",
+        "category": "database",
+        "logo": "/src/assets/skills/sql.png",
+        "color": "#bf3d34",
+        "proficiency": 88
+    },
+    {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "category": "database",
+        "logo": "/src/assets/skills/mongodb.png",
+        "color": "#45a538",
+        "proficiency": 78
+    },
+    {
+        "id": "supabase",
+        "name": "Supabase",
+        "category": "database",
+        "logo": "/src/assets/skills/supabase-icon.svg",
+        "color": "#3ecf8e",
+        "proficiency": 80
+    },
+    {
+        "id": "aws",
+        "name": "AWS",
+        "category": "tools",
+        "logo": "/src/assets/skills/aws.svg",
+        "color": "#ff9900",
+        "proficiency": 65
+    },
+    {
+        "id": "firebase",
+        "name": "Firebase",
+        "category": "tools",
+        "logo": "/src/assets/skills/firebase-icon.svg",
+        "color": "#ffca28",
+        "proficiency": 75
+    },
+    {
+        "id": "openai",
+        "name": "OpenAI APIs",
+        "category": "ai",
+        "logo": "/src/assets/skills/openai-icon.svg",
+        "color": "#10a37f",
+        "proficiency": 80
+    },
+    {
+        "id": "gemini",
+        "name": "Gemini AI",
+        "category": "ai",
+        "logo": "/src/assets/skills/google-gemini.svg",
+        "color": "#8e75ff",
+        "proficiency": 80
+    },
+    {
+        "id": "bootstrap",
+        "name": "Bootstrap",
+        "category": "frontend",
+        "logo": "/src/assets/skills/bootstrap.png",
+        "color": "#7611f7",
+        "proficiency": 85
+    },
+    {
+        "id": "materialui",
+        "name": "Material UI",
+        "category": "frontend",
+        "logo": "/src/assets/skills/material-ui.png",
+        "color": "#007fff",
+        "proficiency": 80
+    }
+]

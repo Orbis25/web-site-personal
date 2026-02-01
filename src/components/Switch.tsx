@@ -3,11 +3,15 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 
 const Switch = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
-    const isDarkMode = localStorage.getItem("darkMode") === "true";
-    setDarkMode(isDarkMode);
+    const savedMode = localStorage.getItem("darkMode");
+    if (savedMode !== null) {
+      setDarkMode(savedMode === "true");
+    } else {
+      setDarkMode(true); // Default to dark mode
+    }
   }, []);
 
   useEffect(() => {
@@ -22,30 +26,26 @@ const Switch = () => {
   return (
     <button
       onClick={() => toggleDarkMode()}
-      className=" ml-3 overflow-hidden relative size-10  grid place-content-center rounded-full bg-gray-200 dark:bg-bg300"
+      className="ml-3 overflow-hidden relative size-10 grid place-content-center rounded-xl bg-slate-200 dark:bg-slate-800 hover:ring-2 ring-primary100/50 transition-all duration-300"
+      aria-label="Toggle Dark Mode"
     >
       <div
         className={classNames(
-          " size-3 rounded-full bg-white",
-          darkMode ? "size-4" : "size-3"
+          "size-3 rounded-full bg-white transition-all duration-300",
+          darkMode ? "scale-100" : "scale-0",
         )}
       />
       <div
         className={classNames(
-          " rounded-full  absolute left-[50%]  top-[50%] bg-gray-200 dark:bg-bg300",
+          "rounded-full absolute left-[50%] top-[50%] bg-slate-200 dark:bg-slate-800 transition-all duration-300",
           darkMode
-            ? "size-4 -translate-x-[25%] -translate-y-[60%] "
-            : "size-3 -translate-x-[-30%] -translate-y-[120%]",
-          " transition-transform duration-300"
+            ? "size-4 -translate-x-[25%] -translate-y-[60%]"
+            : "size-0 -translate-x-[50%] -translate-y-[50%]",
         )}
       />
-      <IconSunFilled
-        className={classNames(
-          "absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]",
-          darkMode ? "scale-0" : " scale-110",
-          "transition-transform duration-300"
-        )}
-      />
+      {!darkMode && (
+        <IconSunFilled className="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] text-amber-500 scale-110" />
+      )}
     </button>
   );
 };

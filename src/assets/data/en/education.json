@@ -1,0 +1,22 @@
+[
+    {
+        "id": "unicaribe",
+        "institution": "Universidad del Caribe, Unicaribe",
+        "degree": "Software Engineering",
+        "location": "Santo Domingo, Dominican Republic",
+        "startDate": "2023-09",
+        "endDate": "2025-11",
+        "current": false,
+        "completed": true
+    },
+    {
+        "id": "itla",
+        "institution": "ITLA",
+        "degree": "Software Technologist",
+        "location": "Santo Domingo, Dominican Republic",
+        "startDate": "2016-01",
+        "endDate": "2019-01",
+        "current": false,
+        "completed": true
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "id": "travcoding",
+        "title": "Desarrollador Backend Senior",
+        "company": "Travcoding",
+        "location": "Remoto, Estados Unidos",
+        "startDate": "2024-06",
+        "endDate": null,
+        "current": true,
+        "description": "Travcoding es una empresa de tecnología de viajes que está remodelando la industria al proporcionar un conjunto completo de servicios para hoteles, alquiler de autos, cruceros, alquiler de vacaciones y más.",
+        "responsibilities": [
+            "Entregué correcciones de producción y mejoras de rendimiento, asegurando estabilidad y confiabilidad en los sistemas principales",
+            "Refactoricé y optimicé el código backend para mejorar la mantenibilidad, escalabilidad y rendimiento",
+            "Diseñé y desarrollé el backend para Luxury Homes, un portal de propiedades de lujo. Implementé caché Redis para mejorar significativamente los tiempos de carga de datos",
+            "Integré RabbitMQ y Redis para procesamiento de datos en tiempo real y tiempos de respuesta rápidos",
+            "Contribuí al desarrollo de un sistema de billetera de puntos de lealtad, incluyendo operaciones CRUD para puntos, conversión a USD y gestión completa de beneficios del cliente",
+            "Colaboré con equipos multifuncionales para alinear características con requisitos comerciales y entregar soluciones que mejoren la experiencia del usuario"
+        ],
+        "technologies": [
+            ".NET",
+            "Redis",
+            "RabbitMQ",
+            "PostgreSQL",
+            "REST APIs",
+            "AWS"
+        ],
+        "tags": [
+            "Microservicios",
+            "Clean Architecture",
+            "Optimización de Rendimiento",
+            "Agile/Scrum"
+        ]
+    },
+    {
+        "id": "tsc",
+        "title": "Desarrollador Backend Sr.",
+        "company": "Technology Solutions Center",
+        "location": "Remoto, Guatemala",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "current": false,
+        "description": "Enfocado en entregar soluciones de vanguardia en Inteligencia Artificial, Arquitectura de Software y desarrollo de APIs para aplicaciones empresariales y sistemas móviles.",
+        "responsibilities": [
+            "Diseñé y desarrollé APIs escalables y librerías en .NET, potenciando aplicaciones móviles y sistemas internos",
+            "Definí e implementé arquitecturas de software para asegurar escalabilidad, mantenibilidad y rendimiento en múltiples proyectos",
+            "Lideré la adopción de soluciones de IA con un fuerte enfoque en integraciones de OpenAI, mejorando la automatización, análisis de datos y procesos de toma de decisiones inteligentes",
+            "Realicé revisiones de código y establecí mejores prácticas de desarrollo, fomentando una cultura de código limpio y entrega de alta calidad",
+            "Colaboré estrechamente con equipos multifuncionales para alinear soluciones técnicas con requisitos comerciales"
+        ],
+        "technologies": [
+            ".NET",
+            "REST APIs",
+            "OpenAI",
+            "SQL Server"
+        ],
+        "tags": [
+            "Arquitectura de Software",
+            "Inteligencia Artificial",
+            "Code Review",
+            "Best Practices",
+            "Agile/Scrum"
+        ]
+    },
+    {
+        "id": "apap-lead",
+        "title": "Team Lead",
+        "company": "Asociación Popular de Ahorros y Préstamos (APAP)",
+        "location": "Santo Domingo, República Dominicana",
+        "startDate": "2023-11",
+        "endDate": "2024-05",
+        "current": false,
+        "description": "Lideré un equipo de 5 desarrolladores, impulsando la adopción de Clean Architecture y mejores prácticas de codificación.",
+        "responsibilities": [
+            "Lideré un equipo de 5 desarrolladores, impulsando la adopción de Clean Architecture y mejores prácticas de codificación",
+            "Facilité ceremonias ágiles (planificación de sprints, retrospectivas) para aumentar la productividad",
+            "Aseguré la alineación técnica con objetivos comerciales y objetivos estratégicos"
+        ],
+        "technologies": [
+            ".NET",
+            "Clean Architecture",
+            "Agile/Scrum"
+        ],
+        "tags": [
+            "Liderazgo de Equipo",
+            "Clean Architecture",
+            "Agile/Scrum"
+        ]
+    },
+    {
+        "id": "apap-senior",
+        "title": "Desarrollador Full Stack Senior",
+        "company": "Asociación Popular de Ahorros y Préstamos (APAP)",
+        "location": "Santo Domingo, República Dominicana",
+        "startDate": "2023-06",
+        "endDate": "2023-11",
+        "current": false,
+        "description": "Desarrollo de microservicios en .NET, Express y NestJS con un fuerte enfoque en escalabilidad.",
+        "responsibilities": [
+            "Desarrollé microservicios en .NET, Express y NestJS con un fuerte enfoque en escalabilidad",
+            "Construí librerías empresariales en .NET y TypeScript, reutilizadas en múltiples proyectos",
+            "Integré RabbitMQ para habilitar comunicación eficiente entre servicios críticos",
+            "Diseñé e implementé servicios bancarios por internet seguros con alta disponibilidad"
+        ],
+        "technologies": [
+            ".NET",
+            "Express",
+            "NestJS",
+            "TypeScript",
+            "RabbitMQ"
+        ],
+        "tags": [
+            "Microservicios",
+            "Librerías Empresariales",
+            "RabbitMQ",
+            "Banca en Línea"
+        ]
+    },
+    {
+        "id": "apap-developer",
+        "title": "Desarrollador",
+        "company": "Asociación Popular de Ahorros y Préstamos (APAP)",
+        "location": "Santo Domingo, República Dominicana",
+        "startDate": "2021-02",
+        "endDate": "2023-06",
+        "current": false,
+        "description": "Trabajé como parte del equipo de desarrollo construyendo y manteniendo sistemas empresariales para una de las instituciones financieras más grandes de la República Dominicana.",
+        "responsibilities": [
+            "Desarrollé aplicaciones web y servicios en .NET para soportar operaciones internas y plataformas orientadas al cliente",
+            "Contribuí a la creación de librerías empresariales en .NET, TypeScript y JavaScript, promoviendo reutilización y eficiencia en proyectos",
+            "Asistí en el desarrollo de microservicios usando .NET y Node.js (Express/NestJS) para mejorar la modularidad y escalabilidad del sistema"
+        ],
+        "technologies": [
+            ".NET",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Express",
+            "NestJS"
+        ],
+        "tags": [
+            "Desarrollo Web",
+            "Librerías Empresariales",
+            "Microservicios"
+        ]
+    },
+    {
+        "id": "dgm",
+        "title": "Desarrollador Full Stack",
+        "company": "Dirección General de Migración",
+        "location": "Santo Domingo, República Dominicana",
+        "startDate": "2019-01",
+        "endDate": "2021-02",
+        "current": false,
+        "description": "Trabajé en el desarrollo de servicios web y soluciones internas para instituciones gubernamentales, habilitando el intercambio seguro de información y soportando procesos públicos clave.",
+        "responsibilities": [
+            "Diseñé e implementé servicios web RESTful en .NET para compartir información con otras instituciones públicas, asegurando confiabilidad y escalabilidad",
+            "Desarrollé proyectos internos desde cero, cubriendo arquitectura, backend y etapas de despliegue",
+            "Construí y mantuve soluciones frontend usando React.js, entregando portales y aplicaciones orientadas al cliente usadas para documentación, inmigración y procedimientos administrativos",
+            "Colaboré estrechamente con stakeholders y equipos multifuncionales para recopilar requisitos y entregar soluciones centradas en el usuario siguiendo la metodología Scrum",
+            "Contribuí a sistemas que hoy soportan a miles de usuarios en completar procesos de documentación oficial para entrada y salida del país"
+        ],
+        "technologies": [
+            ".NET",
+            "React.js",
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS3",
+            "MSSQL Server"
+        ],
+        "tags": [
+            "Servicios Web",
+            "REST APIs",
+            "Agile/Scrum",
+            "Bootstrap"
+        ]
+    }
+]

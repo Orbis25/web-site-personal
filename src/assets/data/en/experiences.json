@@ -1,0 +1,178 @@
+[
+    {
+        "id": "travcoding",
+        "title": "Senior Backend Developer",
+        "company": "Travcoding",
+        "location": "Remote, United States",
+        "startDate": "2024-06",
+        "endDate": null,
+        "current": true,
+        "description": "Travcoding is a travel technology company reshaping the industry by providing a comprehensive suite of services for hotels, car rentals, cruises, vacation rentals, and more.",
+        "responsibilities": [
+            "Delivered production fixes and performance improvements, ensuring stability and reliability across core systems",
+            "Refactored and optimized backend code to enhance maintainability, scalability, and performance",
+            "Designed and developed the backend for Luxury Homes, a portal for luxury properties. Implemented Redis caching to significantly improve data load times",
+            "Integrated RabbitMQ and Redis for real-time data processing and fast response times",
+            "Contributed to the development of a loyalty points wallet system, including CRUD operations for points, conversion to USD, and full management of customer benefits",
+            "Collaborated with cross-functional teams to align features with business requirements and deliver solutions that enhance user experience"
+        ],
+        "technologies": [
+            ".NET",
+            "Redis",
+            "RabbitMQ",
+            "PostgreSQL",
+            "REST APIs",
+            "AWS"
+        ],
+        "tags": [
+            "Microservices",
+            "Clean Architecture",
+            "Performance Optimization",
+            "Agile/Scrum"
+        ]
+    },
+    {
+        "id": "tsc",
+        "title": "Sr. Backend Developer",
+        "company": "Technology Solutions Center",
+        "location": "Remote, Guatemala",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "current": false,
+        "description": "Focused on delivering cutting-edge solutions in Artificial Intelligence, Software Architecture, and API development for enterprise applications and mobile systems.",
+        "responsibilities": [
+            "Designed and developed scalable APIs and libraries in .NET, powering mobile applications and internal systems",
+            "Defined and implemented software architectures to ensure scalability, maintainability, and performance across multiple projects",
+            "Led the adoption of AI solutions with a strong focus on OpenAI integrations, enhancing automation, data analysis, and intelligent decision-making processes",
+            "Conducted code reviews and established development best practices, fostering a culture of clean code and high-quality delivery",
+            "Collaborated closely with cross-functional teams to align technical solutions with business requirements"
+        ],
+        "technologies": [
+            ".NET",
+            "REST APIs",
+            "OpenAI",
+            "SQL Server"
+        ],
+        "tags": [
+            "Software Architecture",
+            "Artificial Intelligence",
+            "Code Review",
+            "Best Practices",
+            "Agile/Scrum"
+        ]
+    },
+    {
+        "id": "apap-lead",
+        "title": "Team Lead",
+        "company": "Asociación Popular de Ahorros y Préstamos (APAP)",
+        "location": "Santo Domingo, Dominican Republic",
+        "startDate": "2023-11",
+        "endDate": "2024-05",
+        "current": false,
+        "description": "Led a team of 5 developers, driving adoption of Clean Architecture and coding best practices.",
+        "responsibilities": [
+            "Led a team of 5 developers, driving adoption of Clean Architecture and coding best practices",
+            "Facilitated agile ceremonies (sprint planning, retrospectives) to increase productivity",
+            "Ensured technical alignment with business goals and strategic objectives"
+        ],
+        "technologies": [
+            ".NET",
+            "Clean Architecture",
+            "Agile/Scrum"
+        ],
+        "tags": [
+            "Team Leadership",
+            "Clean Architecture",
+            "Agile/Scrum"
+        ]
+    },
+    {
+        "id": "apap-senior",
+        "title": "Senior Full Stack Developer",
+        "company": "Asociación Popular de Ahorros y Préstamos (APAP)",
+        "location": "Santo Domingo, Dominican Republic",
+        "startDate": "2023-06",
+        "endDate": "2023-11",
+        "current": false,
+        "description": "Developed microservices in .NET, Express, and NestJS with a strong focus on scalability.",
+        "responsibilities": [
+            "Developed microservices in .NET, Express, and NestJS with a strong focus on scalability",
+            "Built enterprise libraries in .NET and TypeScript, reused across multiple projects",
+            "Integrated RabbitMQ to enable efficient communication between critical services",
+            "Designed and implemented secure internet banking services with high availability"
+        ],
+        "technologies": [
+            ".NET",
+            "Express",
+            "NestJS",
+            "TypeScript",
+            "RabbitMQ"
+        ],
+        "tags": [
+            "Microservices",
+            "Enterprise Libraries",
+            "RabbitMQ",
+            "Online Banking"
+        ]
+    },
+    {
+        "id": "apap-developer",
+        "title": "Developer",
+        "company": "Asociación Popular de Ahorros y Préstamos (APAP)",
+        "location": "Santo Domingo, Dominican Republic",
+        "startDate": "2021-02",
+        "endDate": "2023-06",
+        "current": false,
+        "description": "Worked as part of the development team building and maintaining enterprise systems for one of the largest financial institutions in the Dominican Republic.",
+        "responsibilities": [
+            "Developed web applications and services in .NET to support internal operations and customer-facing platforms",
+            "Contributed to the creation of enterprise libraries in .NET, TypeScript, and JavaScript, promoting reusability and efficiency across projects",
+            "Assisted in the development of microservices using .NET and Node.js (Express/NestJS) to improve system modularity and scalability"
+        ],
+        "technologies": [
+            ".NET",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Express",
+            "NestJS"
+        ],
+        "tags": [
+            "Web Development",
+            "Enterprise Libraries",
+            "Microservices"
+        ]
+    },
+    {
+        "id": "dgm",
+        "title": "Full Stack Developer",
+        "company": "Dirección General de Migración",
+        "location": "Santo Domingo, Dominican Republic",
+        "startDate": "2019-01",
+        "endDate": "2021-02",
+        "current": false,
+        "description": "Worked on the development of web services and internal solutions for government institutions, enabling secure information exchange and supporting key public processes.",
+        "responsibilities": [
+            "Designed and implemented RESTful web services in .NET to share information with other public institutions, ensuring reliability and scalability",
+            "Developed internal projects from scratch, covering architecture, backend, and deployment stages",
+            "Built and maintained frontend solutions using React.js, delivering portals and client-facing applications used for documentation, immigration, and administrative procedures",
+            "Collaborated closely with stakeholders and cross-functional teams to gather requirements and deliver user-centric solutions following Scrum methodology",
+            "Contributed to systems that today support thousands of users in completing official documentation processes for entry and exit of the country"
+        ],
+        "technologies": [
+            ".NET",
+            "React.js",
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS3",
+            "MSSQL Server"
+        ],
+        "tags": [
+            "Web Services",
+            "REST APIs",
+            "Agile/Scrum",
+            "Bootstrap"
+        ]
+    }
+]

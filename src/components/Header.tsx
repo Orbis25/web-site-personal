@@ -1,29 +1,40 @@
 import Switch from "./Switch";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   const navItems = [
-    { name: "About", href: "/about" },
-    { name: "Projects", href: "/projects" },
-    { name: "Contact", href: "/contact" },
+    { name: t("nav.about"), href: "#hero" },
+    { name: t("nav.experience"), href: "#experience" },
+    { name: t("nav.skills"), href: "#skills" },
+    { name: t("nav.contact"), href: "#contact" },
   ];
   return (
-    <header className=" bg-gray-100 dark:bg-bg200 py-5">
-      <nav className=" container flex items-center justify-between">
-        <a className=" text-2xl font-semibold text-primary200" href="/">
-          OAlonzo
+    <header className="sticky top-0 z-50 w-full glass dark:glass-dark transition-all duration-300">
+      <nav className="container flex items-center justify-between py-4">
+        <a
+          className="text-2xl font-bold bg-gradient-to-r from-primary100 to-accent100 bg-clip-text text-transparent hover:scale-105 transition-transform"
+          href="/"
+        >
+          OAlonzo<span className="text-primary200"></span>
         </a>
-        <ul className="flex items-center">
-          {navItems.map((item) => {
-            return (
+        <div className="flex items-center gap-8">
+          <ul className="hidden md:flex items-center gap-6">
+            {navItems.map((item) => (
               <li key={item.name}>
-                <a className="px-3" href={item.href}>
+                <a className="nav-link" href={item.href}>
                   {item.name}
                 </a>
               </li>
-            );
-          })}
-          <Switch />
-        </ul>
+            ))}
+          </ul>
+          <div className="flex items-center gap-3">
+            <LanguageSwitcher />
+            <Switch />
+          </div>
+        </div>
       </nav>
     </header>
   );
