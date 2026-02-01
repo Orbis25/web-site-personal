@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import classNames from "classnames";
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
